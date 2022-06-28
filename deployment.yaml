@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: tomcat-container
-          image: tomcat:8.0-alpine
+          image: chetna138/tomcat
           ports: 
             - containerPort: 8080
